@@ -2,7 +2,6 @@
 def binary_search(seq, query):
     low = 0
     high = len(seq) - 1
-
     while low <= high:
         mid = (low + high) // 2
         if seq[mid] == query:
@@ -11,5 +10,3 @@ def binary_search(seq, query):
             high = mid - 1
         elif seq[mid] > query:
             low = mid + 1
-
-    return None
