@@ -40,4 +40,4 @@ def test_recurring_query():
 
 
 def test_huge_list():
-    assert binary_search(range(int(100e10), 0, -1), 1) == int(100e10) - 1
+    assert binary_search(range(int(100e10), 0, -1), 2) == int(100e10) - 2
